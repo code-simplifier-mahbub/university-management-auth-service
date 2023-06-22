@@ -1,0 +1,145 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\.f0fb641837928719408e6897085f649658067849-audit.json",
+    "files": [
+        {
+            "date": 1686623159588,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-08-error.log",
+            "hash": "c6959d358d267f1d370ee19541b2979a5486d6a85cacc02421dea55e2c880189"
+        },
+        {
+            "date": 1686627677944,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-09-error.log",
+            "hash": "2b06baf701d132423ca41110dac2a828e539c5ddbb8a12355e75c0562f0f638a"
+        },
+        {
+            "date": 1686628803103,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-10-error.log",
+            "hash": "1914d00e3740527cdd316cdd64a90277023bf3f025a8e5d5c6728f7b978ceb28"
+        },
+        {
+            "date": 1686632619204,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-11-error.log",
+            "hash": "47fee1ae15e527fa54b0e867402f44209c6d0e6c5ee3a845ac0251a6bb7ee33b"
+        },
+        {
+            "date": 1686636690864,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-12-error.log",
+            "hash": "3a4696b3bbe6bbc9e1bcf6d45512881a456a8faa20fc103426ea46aa827c952b"
+        },
+        {
+            "date": 1686659492341,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-18-error.log",
+            "hash": "19998bfebc297a143cef8297d48be08f915bcb77dbe3e19277431c233e67eaf6"
+        },
+        {
+            "date": 1686676198331,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-06-23-error.log",
+            "hash": "1a047ea449c7cc2fec6369d63aa236b5186dee9df8d67a6b47ed59087c74f21a"
+        },
+        {
+            "date": 1686721754420,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-14-06-11-error.log",
+            "hash": "7234b7a345d0f3ee40bc6b247b491f17909df19709d1a811cee56d7a86075fdc"
+        },
+        {
+            "date": 1686809020276,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-12-error.log",
+            "hash": "9d3bf205aa9bb298a4b8cc572b863263b12711db89fb7c5602abafb092695656"
+        },
+        {
+            "date": 1686812524190,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-13-error.log",
+            "hash": "454ca7e4a8dadd8f67d8e1372807b585628237e1cdcb5639d9ea69337499c495"
+        },
+        {
+            "date": 1686891018128,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-10-error.log",
+            "hash": "f9fda713f682844bbfec4e38039c91457b5dc6c0a6a90b8de7febc18e056adb1"
+        },
+        {
+            "date": 1686909499602,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-15-error.log",
+            "hash": "fd96a5979955d19b87f45c575007f03905ffa43be6ccb3fccdddabc312d92d9a"
+        },
+        {
+            "date": 1686909856150,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-16-error.log",
+            "hash": "bbf5a16cbffa8bf54c3812ab2ba293df536fac4d47fb3ae77bb7996ace7f74bb"
+        },
+        {
+            "date": 1686970361609,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-08-error.log",
+            "hash": "ff013f05a32f22c192a399587e3d7050a86bc88a31d9c7ddf3d0024b3d28abcc"
+        },
+        {
+            "date": 1686970810083,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-09-error.log",
+            "hash": "aedd360d6dbe1983415f4310bbcc7e86ea17a66daacd707f60c47818d29a0503"
+        },
+        {
+            "date": 1686988426008,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-13-error.log",
+            "hash": "bdaad773ffa1894443dcbde9ebc7423330ab07e97d2ebff6d902e49c2b762447"
+        },
+        {
+            "date": 1686988811024,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-14-error.log",
+            "hash": "2e54a8390c7fd5bfab7f208cc48b079d1321897c1792c8b64ae1ba485ae9f188"
+        },
+        {
+            "date": 1687022812235,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-23-error.log",
+            "hash": "d51bb46d8af7d8dab815edfc1fb7317100afac1ea530db10d34940c1714b74e8"
+        },
+        {
+            "date": 1687024994800,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-18-06-00-error.log",
+            "hash": "8e220b86573fd411f1a404dd80b40f2e458f08936d1ebaa321de7f88e37e77f8"
+        },
+        {
+            "date": 1687237243696,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-06-11-error.log",
+            "hash": "232cc7bbb2f2b965323294656bd9f57820cdd558ee8adefa27a4b81f751ffdb9"
+        },
+        {
+            "date": 1687241650169,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-06-12-error.log",
+            "hash": "d7d65ad80e0c6ad5043f8a5bd01a5437f08d8ef25a2d424a76fcec92e32d9df5"
+        },
+        {
+            "date": 1687253685766,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-06-15-error.log",
+            "hash": "322ef119b32f8a7a23d0fd326c955c635c90252d73b03e0873559dfc2958311a"
+        },
+        {
+            "date": 1687412567210,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-11-error.log",
+            "hash": "38610fb8584d6aac50369547bf89803ac6f59af0cf05724b94fc92190afc1c27"
+        },
+        {
+            "date": 1687417115318,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-12-error.log",
+            "hash": "d29d91081e9881811740673ce20fb7db82ac6cc8ba4fb865507e5c72ea142d5d"
+        },
+        {
+            "date": 1687417484567,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-13-error.log",
+            "hash": "39cbb5bfcea7c79d7f9e980bc02a0bd38067bc19afdccfa5c915ed8dec11e010"
+        },
+        {
+            "date": 1687421104887,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-14-error.log",
+            "hash": "3001b00944b1224e9b43cb47b90a00755a987285eca2f7efc4ea0a864bfa8543"
+        },
+        {
+            "date": 1687428879493,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-16-error.log",
+            "hash": "15de18abbf7637ecbfc66efec8bdb4c01004d5b14858469c6550af3536401288"
+        }
+    ],
+    "hashType": "sha256"
+}
