@@ -1,27 +1,25 @@
-import express, { Application, Request, Response } from 'express'
-import cors from 'cors'
-import usersRouter from './app/modules/users/users.route'
-// import userService from './app/modules/users/user.service'
+import express, { Application } from 'express';
+import cors from 'cors';
+import globalErrorHandler from './app/middleware/globalErrorHandler';
+import { UserRoutes } from './app/modules/user/user.route';
+// import ApiError from './errors/ApiError'
 
-const app: Application = express()
+const app: Application = express();
 
-app.use(cors())
+app.use(cors());
 //parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 //Application routes
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', UserRoutes);
 
-//Testing
-app.get('/', async (req: Request, res: Response) => {
-  // await userService.createUser({
-  //   id: '999',
-  //   password: '3333',
-  //   role: 'student'
-  // })
+// //Testing
+// app.get('/', async(req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error logger')
+// })
 
-  res.send('Working Successfully')
-})
+//global error handler
+app.use(globalErrorHandler);
 
-export default app
+export default app;
