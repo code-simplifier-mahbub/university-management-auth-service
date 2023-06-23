@@ -3,7 +3,7 @@ import { z } from 'zod';
 //req- validation
 //body -->object
 //data -->object
-const createUserSchemaZod = z.object({
+const createUserZodSchema = z.object({
   body: z.object({
     role: z.string({
       required_error: 'role is required',
@@ -13,5 +13,5 @@ const createUserSchemaZod = z.object({
 });
 
 export const userValidation = {
-  createUserSchemaZod,
+  createUserZodSchema,
 };
