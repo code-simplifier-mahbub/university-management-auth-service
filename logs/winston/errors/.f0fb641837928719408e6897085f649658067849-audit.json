@@ -149,6 +149,16 @@
             "date": 1687531354959,
             "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-20-error.log",
             "hash": "4e4bd103f983f8bd6c8c66b02b3f8ac9334de6779ab178d0a20551e0202ca7fe"
+        },
+        {
+            "date": 1687540210628,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-23-error.log",
+            "hash": "94549b45e9f0233a98e98c289637ab602592b9a6e9da48e15b7127b3a338aaae"
+        },
+        {
+            "date": 1687543729936,
+            "name": "C:\\Users\\WebCod Mahbub\\Projects\\WebDev2.0\\Mission3-Be a NoSQL Beckend Braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-24-06-00-error.log",
+            "hash": "982228df1e7831cb5dbe6ee12e5cb700cd01073d7e9c10e0073bc603aeea703e"
         }
     ],
     "hashType": "sha256"
