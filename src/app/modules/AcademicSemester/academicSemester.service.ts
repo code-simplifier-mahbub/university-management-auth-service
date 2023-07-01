@@ -1,10 +1,18 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
-import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
+import {
+  academicSemesterSearchableField,
+  academicSemesterTitleCodeMapper,
+} from './academicSemester.constant';
 import { AcademicSemester } from './academicSemesterModel';
-import { IAcademicSemester } from './academicSemister.interface';
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilters,
+} from './academicSemister.interface';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
+import { paginationHelpers } from '../../../helper/paginationHelper';
+import { SortOrder } from 'mongoose';
 
 const createSemester = async (
   payload: IAcademicSemester
@@ -17,12 +25,43 @@ const createSemester = async (
 };
 
 const getAllSemesters = async (
+  filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
-  const { page = 1, limit = 10 } = paginationOptions;
-  const skip = (page - 1) * limit;
+  const { searchTerm, ...filtersData } = filters;
 
-  const result = await AcademicSemester.find().sort().skip(skip).limit(limit);
+  const andConditions = [];
+  if (searchTerm) {
+    andConditions.push({
+      $or: academicSemesterSearchableField.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    });
+  }
+
+  if (Object.keys(filtersData).length) {
+    andConditions.push({
+      $and: Object.entries(filtersData).map(([field, value]) => ({
+        [field]: value,
+      })),
+    });
+  }
+
+  const { page, limit, skip, sortBy, sortOrder } =
+    paginationHelpers.calculatePagination(paginationOptions);
+
+  const sortConditions: { [key: string]: SortOrder } = {};
+  if (sortBy && sortOrder) {
+    sortConditions[sortBy] = sortOrder;
+  }
+
+  const result = await AcademicSemester.find({ $and: andConditions })
+    .sort(sortConditions)
+    .skip(skip)
+    .limit(limit);
 
   const total = await AcademicSemester.countDocuments();
 
